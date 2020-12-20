@@ -43,11 +43,11 @@ hexo 启动服务时默认是4000端口，如果冲突了就无法启动，此�
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
 - type: git
-  repo: git@github.com:yuccie/hexoArt.git
+  repo: git@github.com:yuccie/hexoBlog.git
   message: hexo文章更新发布
 # 还可以部署多个 
 # - type: heroku
 #   repo: xxx
 ```
 
-但部署到服务器后，访问域名，提示资源404，原因是`https://yuccie.github.io/hexoArt/`应该为根地址，但资源获取的根地址却是`https://yuccie.github.io`。。。
+但部署到服务器后，访问域名，提示资源404，原因是`https://yuccie.github.io/hexoBlog/`应该为根地址，但资源获取的根地址却是`https://yuccie.github.io`。。。

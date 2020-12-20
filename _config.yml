@@ -13,8 +13,8 @@ timezone: '' # 默认使用您电脑的时区
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: "https://yuccie.github.io/hexoArt"
-root: /hexoArt/
+url: "https://yuccie.github.io/hexoBlog"
+root: /hexoBlog/
 # :year/:month/:day/:title/
 permalink: :title/
 permalink_defaults:
@@ -105,7 +105,7 @@ theme: Fan
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
 - type: git
-  repo: git@github.com:yuccie/hexoArt.git
+  repo: git@github.com:yuccie/hexoBlog.git
   message: 
 # 还可以部署多个 
 # - type: heroku
